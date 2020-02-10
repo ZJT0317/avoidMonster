@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+p{
+	font-size:16px;
+	text-align:center;
+}
+.container .hero{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:32px;
+	height:32px;
+	background-image:url('hero.png');
+}
+.container{
+	position:relative;
+	top:50%;
+	left:50%;
+	margin-left:-240px;
+	width:512px;
+	height:480px;
+	background-image:url("background.png");
+	background-repeat:no-repeat;
+}
+.container .monster{
+	position:absolute;
+	top:0;
+	left:0;
+	width:30px;
+	height:32px;
+	background-image:url('monster.png');
+}
+.container .time{
+	color:#fff;
+	text-align:center;
+	font-size:2em;
+}
